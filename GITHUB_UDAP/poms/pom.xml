@@ -8,6 +8,10 @@
   <packaging>pom</packaging>
   <name>GITHUB_UDAP Codes Master</name>
   <url>http://www.talend.org/</url>
+  <modules>
+    <module>code/routines</module>
+    <module>code/beans</module>
+  </modules>
   <properties>
     <talend.project.name>GITHUB_UDAP</talend.project.name>
     <talend.docker.tag>${project.version}</talend.docker.tag>

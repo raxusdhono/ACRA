@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_5GOfkZXcEeukb7X8kuuetQ" label="UDAP-Github" description="" language="java" technicalLabel="UDAP_GITHUB" creationDate="2021-04-05T14:23:56.217+0800" author="_5GPGoJXcEeukb7X8kuuetQ" productVersion="Talend Data Fabric-7.3.1.20200219_1130" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/raxusdhono/ACRA.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ">
+  <TalendProperties:Project xmi:id="_5GOfkZXcEeukb7X8kuuetQ" label="UDAP-Github" description="" language="java" technicalLabel="UDAP_GITHUB" creationDate="2021-04-05T14:23:56.217+0800" author="_5GPGoJXcEeukb7X8kuuetQ" productVersion="Talend Data Fabric-7.3.1.20200219_1130" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/raxusdhono/ACRA.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3">
     <migrationTask xmi:id="_6EZYAJXcEeukb7X8kuuetQ" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_5GPGoJXcEeukb7X8kuuetQ" login="user1@dev.com" firstName="User" lastName="1" type="MDM" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_L-C6IJXdEeukb7X8kuuetQ" login="user2@dev.com" firstName="User" lastName="2" type="MDM" additionnalData="{}"/>
 </xmi:XMI>

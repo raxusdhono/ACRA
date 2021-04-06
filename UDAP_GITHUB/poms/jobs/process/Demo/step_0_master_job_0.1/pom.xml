@@ -189,17 +189,17 @@
     </dependency>
     <dependency>
       <groupId>org.example.udap_github.job</groupId>
-      <artifactId>JOB_MASTER_LOAD_S3_CURATED_BUCKET</artifactId>
+      <artifactId>Step_3_S3_Curated_Bucket_to_RedShift_DB</artifactId>
       <version>0.1.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.udap_github.job</groupId>
-      <artifactId>JOB_MASTER_LOAD_S3_RAW_BUCKET</artifactId>
+      <artifactId>Step_2_S3_RAW_Bucket_to_S3_Curated_Bucket</artifactId>
       <version>0.1.0</version>
     </dependency>
     <dependency>
       <groupId>org.example.udap_github.job</groupId>
-      <artifactId>JOB_MASTER_LOAD_RE_DB</artifactId>
+      <artifactId>Step_1_files_into_S3_RAW_Bucket</artifactId>
       <version>0.1.0</version>
     </dependency>
   </dependencies>

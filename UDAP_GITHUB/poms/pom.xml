@@ -12,7 +12,6 @@
     <module>code/routines</module>
     <module>code/beans</module>
     <module>jobs/process/raga/job_dummy_0.1</module>
-    <module>jobs/process/raga/test_0.1</module>
     <module>jobs/process/Demo/step_1_files_into_s3_raw_bucket_0.1</module>
     <module>jobs/process/Demo/step_3_s3_curated_bucket_to_redshift_db_0.1</module>
     <module>jobs/process/Demo/step_2_s3_raw_bucket_to_s3_curated_bucket_0.1</module>

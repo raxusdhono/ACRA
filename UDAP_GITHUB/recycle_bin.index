@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2021-04-06T18:51:05.073+0800">
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2021-04-06T19:25:29.906+0800">
   <deletedItems id="_eZ3CUJUmEeubh-83y8OEeA" path="process/_wdwQUJLbEeuAMI4QGlq8UA" type="TEST_CONTAINER"/>
   <deletedItems id="_r927YJU9Eeubh-83y8OEeA" path="process/_wdwQUJLbEeuAMI4QGlq8UA" type="TEST_CONTAINER"/>
   <deletedItems id="_EkYhIJYuEeubh-83y8OEeA" path="process/_wdwQUJLbEeuAMI4QGlq8UA" type="TEST_CONTAINER"/>
   <deletedItems id="_H0wswJYuEeubh-83y8OEeA" path="process/_wdwQUJLbEeuAMI4QGlq8UA" type="TEST_CONTAINER"/>
   <deletedItems id="_LgewkJYuEeubh-83y8OEeA" path="process/_wdwQUJLbEeuAMI4QGlq8UA" type="TEST_CONTAINER"/>
   <deletedItems id="_72ZdUJYtEeubh-83y8OEeA" path="process/_wdwQUJLbEeuAMI4QGlq8UA" type="TEST_CONTAINER"/>
+  <deletedItems id="_NrmnAJT_EeuazaTL0eFriA" path="raga" type="PROCESS"/>
 </recyclebin:RecycleBin>

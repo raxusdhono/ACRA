@@ -18,6 +18,7 @@
     <module>jobs/process/Demo/job_master_load_s3_raw_bucket_0.1</module>
     <module>jobs/process/Demo/job_master_load_s3_curated_bucket_0.1</module>
     <module>jobs/process/Demo/step_1_files_into_s3_raw_bucket_0.1</module>
+    <module>jobs/process/Demo/step_2_s3_raw_bucket_to_s3_curated_bucket_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>

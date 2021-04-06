@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Acra_Demo" xmi:id="_Hz3e0JaEEeu4euWuM7Jykw">
+    <contextParameter comment="" name="re_live_path" prompt="re_live_path?" promptNeeded="false" type="id_String" value="D:\Acra_Demo_Talend_remote_server_files\Demo\Live" xmi:id="_Hz3e0ZaEEeu4euWuM7Jykw"/>
+    <contextParameter comment="" name="re_reject_path" prompt="re_reject_path?" promptNeeded="false" type="id_String" value="D:\Acra_Demo_Talend_remote_server_files\Demo\Reject" xmi:id="_Hz3e0paEEeu4euWuM7Jykw"/>
+    <contextParameter comment="" name="re_reject_archive" prompt="re_reject_archive?" promptNeeded="false" type="id_String" value="D:\Acra_Demo_Talend_remote_server_files\Demo\Reject" xmi:id="_Hz3e05aEEeu4euWuM7Jykw"/>
+    <contextParameter comment="" name="re_process_path" prompt="re_process_path?" promptNeeded="false" type="id_String" value="D:\Acra_Demo_Talend_remote_server_files\Demo\Process" xmi:id="_Hz3e1JaEEeu4euWuM7Jykw"/>
+    <contextParameter comment="" name="re_db_process_path" prompt="re_db_process_path?" promptNeeded="false" type="id_String" value="D:\Acra_Demo_Talend_remote_server_files\Demo\DB_Process" xmi:id="_Hz3e1ZaEEeu4euWuM7Jykw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_Hz3e1paEEeu4euWuM7Jykw">
+    <contextParameter comment="" name="re_live_path" prompt="re_live_path?" promptNeeded="false" type="id_String" value="C:\Users\rnayak\OneDrive - ABeam Consulting Ltd\Desktop\demo\New files\" xmi:id="_Hz3e15aEEeu4euWuM7Jykw"/>
+    <contextParameter comment="" name="re_reject_path" prompt="re_reject_path?" promptNeeded="false" type="id_String" value="C:\Users\rnayak\OneDrive - ABeam Consulting Ltd\Desktop\demo\Reject\" xmi:id="_Hz3e2JaEEeu4euWuM7Jykw"/>
+    <contextParameter comment="" name="re_reject_archive" prompt="re_reject_archive?" promptNeeded="false" type="id_String" value="C:\Users\rnayak\OneDrive - ABeam Consulting Ltd\Desktop\demo\Archive\" xmi:id="_Hz3e2ZaEEeu4euWuM7Jykw"/>
+    <contextParameter comment="" name="re_process_path" prompt="re_process_path?" promptNeeded="false" type="id_String" value="C:\Users\rnayak\OneDrive - ABeam Consulting Ltd\Desktop\demo\process\" xmi:id="_Hz3e2paEEeu4euWuM7Jykw"/>
+    <contextParameter comment="" name="re_db_process_path" prompt="re_db_process_path?" promptNeeded="false" type="id_String" value="C:\Users\rnayak\OneDrive - ABeam Consulting Ltd\Desktop\demo\process\" xmi:id="_Hz3e25aEEeu4euWuM7Jykw"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f204c434-2f82-4ce4-a219-f393a5c6c536"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>7AxCNt1w1QawWK1sb7q45fSlyp3KaTVWxtou1RI6EXrDz643ZKsFOZOtLgeD4gdbSe5z0Qdbs+TO
+RIsYcOUk7A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a9bf9b54-440e-4b7b-8df3-c77ced28934e"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ESGBD0CFkYhH82XYGt4rk/Qa1I11C9mpL3lDNKhJm/p/1qMzYhzFYM2v+0y5+e+NbqQkpIrDT2TT
+DxOZSdds0A==</DigestValue></Reference></SignedInfo><SignatureValue>fhj7hR0W67IUskpdAJsX9h0r8lCw3jzU6tlE0Jcw2Iai9kQpQeqd+d9dxkkan3aSakEdIh6QnEsG
+ssm9o4Y5QVBU5guov1ZfL6MSWnMRRoY0MMUhKxkbbEOTE8ycoNGgZXY3rlTzUVL1OQJXB7HDZTAK
+qPyMybZV1rEsVtlYSysXt/PcSk81I1n1ui1xVYwuahYk/qs9jbgji8CJqop5Ch2VdKBtKOAyOeQh
+tBrsSCRtK2FN8wRj6TGJJX0GXQnv6L6j6+V1HOybN3CUantG9j3ezh7LlsFkBWH9JX6Z3ISoi92p
+BbC8p7hJd20wQUBnh0qt+V8jex4LNfq0ii0zNg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a9bf9b54-440e-4b7b-8df3-c77ced28934e" Target="#_f204c434-2f82-4ce4-a219-f393a5c6c536"><Timestamp>2021-04-06 02:29:36</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

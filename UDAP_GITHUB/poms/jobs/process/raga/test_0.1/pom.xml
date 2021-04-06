@@ -9,9 +9,9 @@
     <relativePath>../../../../</relativePath>
   </parent>
   <groupId>org.example.udap_github.job</groupId>
-  <artifactId>job_dummy</artifactId>
+  <artifactId>test</artifactId>
   <version>0.1.0</version>
-  <name>UDAP_GITHUB job_dummy-0.1.0 (0.1,Job Designs)</name>
+  <name>UDAP_GITHUB test-0.1.0 (0.1,Job Designs)</name>
   <properties>
     <output.resources.dir>${talend.job.name}/src/main/resources</output.resources.dir>
     <talend.job.applyContextToChildren>false</talend.job.applyContextToChildren>
@@ -24,7 +24,7 @@
     <maven.build.timestamp.format>yyyy-MM-dd HHmmssSSS</maven.build.timestamp.format>
     <talend.project.name>UDAP_GITHUB</talend.project.name>
     <talend.product.version>7.3.1.20200219_1130</talend.product.version>
-    <talend.job.finalName>job_dummy_0_1</talend.job.finalName>
+    <talend.job.finalName>test_0_1</talend.job.finalName>
     <talend.pigudf.groupid>org.example.udap_github.pigudf</talend.pigudf.groupid>
     <talend.routine.groupid>org.example.udap_github.code</talend.routine.groupid>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
@@ -33,8 +33,8 @@
     <talend.job.context>Default</talend.job.context>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
     <current.resources.dir>${basedir}/src/main/ext-resources</current.resources.dir>
-    <talend.job.name>job_dummy</talend.job.name>
-    <talend.job.id>_myHPQJU9Eeus9r6dTl1PuA</talend.job.id>
+    <talend.job.name>test</talend.job.name>
+    <talend.job.id>_NrmnAJT_EeuazaTL0eFriA</talend.job.id>
     <talend.project.id>0</talend.project.id>
     <talend.job.folder>raga/</talend.job.folder>
     <talend.job.framework></talend.job.framework>
@@ -83,6 +83,11 @@
       <version>2.1.1</version>
     </dependency>
     <dependency>
+      <groupId>com.enterprisedt</groupId>
+      <artifactId>edtftpj</artifactId>
+      <version>2.5.0</version>
+    </dependency>
+    <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>job-audit</artifactId>
       <version>1.1</version>
@@ -91,11 +96,6 @@
       <groupId>net.minidev</groupId>
       <artifactId>json-smart</artifactId>
       <version>2.2.1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>junit</artifactId>
-      <version>6.0.0</version>
     </dependency>
     <dependency>
       <groupId>org.apache.logging.log4j</groupId>
@@ -130,11 +130,6 @@
     <dependency>
       <groupId>org.talend.libraries</groupId>
       <artifactId>talend_file_enhanced_20070724</artifactId>
-      <version>6.0.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.talend.libraries</groupId>
-      <artifactId>talendcsv</artifactId>
       <version>6.0.0</version>
     </dependency>
     <dependency>

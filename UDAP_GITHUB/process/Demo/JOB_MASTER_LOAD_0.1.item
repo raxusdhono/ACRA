@@ -13,10 +13,10 @@
     <contextParameter comment="" name="DEMO_REDSHIFT_AdditionalParams" prompt="DEMO_REDSHIFT_AdditionalParams?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value=""/>
     <contextParameter comment="" name="DEMO_REDSHIFT_Database" prompt="DEMO_REDSHIFT_Database?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="acra_rsdw"/>
     <contextParameter comment="" name="DEMO_REDSHIFT_Login" prompt="DEMO_REDSHIFT_Login?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="awsuser"/>
-    <contextParameter comment="" name="DEMO_REDSHIFT_Password" prompt="DEMO_REDSHIFT_Password?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_Password" value="enc:system.encryption.key.v1:nNko8ltsmwHQwhjFO/s0ise58kLGrMxPn75D2V/h05RDJosxIgbm"/>
+    <contextParameter comment="" name="DEMO_REDSHIFT_Password" prompt="DEMO_REDSHIFT_Password?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_Password" value="enc:system.encryption.key.v1:HNFa1d4XcoEaP9IvbK7PtK15HvCwpUx06yZAXVhJlru/vzogFP07"/>
     <contextParameter comment="" name="DEMO_REDSHIFT_Port" prompt="DEMO_REDSHIFT_Port?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="5439"/>
     <contextParameter comment="" name="DEMO_REDSHIFT_Schema" prompt="DEMO_REDSHIFT_Schema?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="acra_stg"/>
-    <contextParameter comment="" name="DEMO_REDSHIFT_Server" prompt="DEMO_REDSHIFT_Server?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="acra-redshift-cluster-1.c512fpj9gapb.ap-southeast-1.redshift.amazonaws.com"/>
+    <contextParameter comment="" name="DEMO_REDSHIFT_Server" prompt="DEMO_REDSHIFT_Server?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="13.251.100.192"/>
     <contextParameter comment="" name="s3_analytics_bucket" prompt="s3_analytics_bucket?" promptNeeded="false" repositoryContextId="_NNIqEJLVEeuAMI4QGlq8UA" type="id_String" value="acras3-analytics"/>
     <contextParameter comment="" name="s3_bucket_access_key" prompt="s3_bucket_access_key?" promptNeeded="false" repositoryContextId="_NNIqEJLVEeuAMI4QGlq8UA" type="id_String" value="&quot;AKIAZKISIQPPSWCRQFWI&quot;"/>
     <contextParameter comment="" name="s3_curated_bucket" prompt="s3_curated_bucket?" promptNeeded="false" repositoryContextId="_NNIqEJLVEeuAMI4QGlq8UA" type="id_String" value="acras3-curated"/>
@@ -34,10 +34,10 @@
     <contextParameter comment="" name="DEMO_REDSHIFT_AdditionalParams" prompt="DEMO_REDSHIFT_AdditionalParams?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value=""/>
     <contextParameter comment="" name="DEMO_REDSHIFT_Database" prompt="DEMO_REDSHIFT_Database?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="acra_rsdw"/>
     <contextParameter comment="" name="DEMO_REDSHIFT_Login" prompt="DEMO_REDSHIFT_Login?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="awsuser"/>
-    <contextParameter comment="" name="DEMO_REDSHIFT_Password" prompt="DEMO_REDSHIFT_Password?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_Password" value="enc:system.encryption.key.v1:Xx5l8IDKk5M+rN4uvpicC54ovEeSVf4lqWNQYpk9ZXpqRcMmaDXc"/>
+    <contextParameter comment="" name="DEMO_REDSHIFT_Password" prompt="DEMO_REDSHIFT_Password?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_Password" value="enc:system.encryption.key.v1:aTyMdbj/lLVAbNqUyTLGeAnLXd5AWF/Zc6OxgvullgKjMTEXLupF"/>
     <contextParameter comment="" name="DEMO_REDSHIFT_Port" prompt="DEMO_REDSHIFT_Port?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="5439"/>
     <contextParameter comment="" name="DEMO_REDSHIFT_Schema" prompt="DEMO_REDSHIFT_Schema?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="acra_stg"/>
-    <contextParameter comment="" name="DEMO_REDSHIFT_Server" prompt="DEMO_REDSHIFT_Server?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="acra-redshift-cluster-1.c512fpj9gapb.ap-southeast-1.redshift.amazonaws.com"/>
+    <contextParameter comment="" name="DEMO_REDSHIFT_Server" prompt="DEMO_REDSHIFT_Server?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="13.251.100.192"/>
     <contextParameter comment="" name="s3_analytics_bucket" prompt="s3_analytics_bucket?" promptNeeded="false" repositoryContextId="_NNIqEJLVEeuAMI4QGlq8UA" type="id_String" value="acras3-analytics"/>
     <contextParameter comment="" name="s3_bucket_access_key" prompt="s3_bucket_access_key?" promptNeeded="false" repositoryContextId="_NNIqEJLVEeuAMI4QGlq8UA" type="id_String" value="&quot;AKIAZKISIQPPSWCRQFWI&quot;"/>
     <contextParameter comment="" name="s3_curated_bucket" prompt="s3_curated_bucket?" promptNeeded="false" repositoryContextId="_NNIqEJLVEeuAMI4QGlq8UA" type="id_String" value="acras3-curated"/>
@@ -93,7 +93,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:SZU7bgUyXTfc9yNLCSGiIzdgj3zZlfFOv2g/XZZY"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:gUy6OPc+QcX40Lqga/HceuZhqhkPXPOvCChdC0o2"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -128,7 +128,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:CJpWkpwqFukQktccVWb3KyfBCOXxrn56vxHj6Fe1"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:1S/ux/JA6lOdw4QdhFNgkGkuye1K90ZrNOvoh0kO"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -184,7 +184,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.DEMO_REDSHIFT_Database"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" value="context.DEMO_REDSHIFT_Schema"/>
     <elementParameter field="TEXT" name="USER" value="context.DEMO_REDSHIFT_Login"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:MPbt04oahCVOm+ARvnTWmw6TgM6ByiZJ/H5YMGHKvu0zZbzYvsNH4dpXIAt0Gfm4zrFHwJ6y1np8YQ=="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:X0/SnedHsexvj/snjlGeQGwZy5K6EkEWGhKw9NX+L8qeCpDhX8xtpoPKSxLAIFLUMSAscBWlZ/dcLA=="/>
     <elementParameter field="TEXT" name="PROPERTIES" value="context.DEMO_REDSHIFT_AdditionalParams"/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
@@ -201,7 +201,7 @@
   <node componentName="tS3Connection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1408" posY="288" sizeX="224" sizeY="32">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tS3Connection_1"/>
     <elementParameter field="TEXT" name="ACCESS_KEY" value="context.s3_bucket_access_key"/>
-    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:1vvs0cC8A4HZAJcIPbcd9j2FOEVhAOP0n+Z+SUfbak2W5UL0BzlHnXTx7RBYqJ9Qfhj2dSzIsxk="/>
+    <elementParameter field="PASSWORD" name="SECRET_KEY" value="enc:system.encryption.key.v1:BgkiU9EMsUTAhPB1e1kuQAR/ej7HZotSm7ScXKYz07xSJQ7DIlUl68D4KMhiWNbMUzGP/aQpLUk="/>
     <elementParameter field="CHECK" name="INHERIT_CREDENTIALS" value="false"/>
     <elementParameter field="CHECK" name="ASSUME_ROLE" value="false"/>
     <elementParameter field="TEXT" name="ARN" show="false" value="&quot;&quot;"/>
@@ -213,8 +213,8 @@
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_SYMMETRIC_MASTER_KEY" show="false" value="AES"/>
     <elementParameter field="CLOSED_LIST" name="ALGORITHM_ASYMMETRIC_MASTER_KEY" show="false" value="RSA"/>
     <elementParameter field="CLOSED_LIST" name="ENCODING" show="false" value="BASE64"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:ejL6/KlWi2jLDwmXU5x3C6lvkDx9VfAWMlTnqS3B"/>
-    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:GjWs0xSn58jp8yDuWn3+eYDjVNMknNhRLPLubyun"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_CMK" show="false" value="enc:system.encryption.key.v1:sHlRTZfvehscEfZq/idlA3oUg3JKw3zNUXxWOTCs"/>
+    <elementParameter field="PASSWORD" name="ENCRYPTED_KEY_BASE64" show="false" value="enc:system.encryption.key.v1:GPKzvQqwN+LgTPMHDIxwjCOc/an+BpoQYbllHk8T"/>
     <elementParameter field="FILE" name="ENCRYPTED_KEY_X509" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PUBLIC_KEY" show="false" value="&quot;&quot;"/>
     <elementParameter field="FILE" name="PRIVATE_KEY" show="false" value="&quot;&quot;"/>
@@ -262,7 +262,7 @@
     <elementParameter field="TEXT" name="TYPE" show="false" value="Redshift"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:EI/sWm4TB5XMXw8e+/9yr9FtuWEEjnNGnsBliiOx"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Jx/gB9qKKuXlDuPsubzWeEQdr4YReu6YUcMbnhE4"/>
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;Job_master_error_log&quot;"/>
     <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
@@ -646,13 +646,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_131c64af-36f9-4c89-b9d0-585b7ea9b378"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Ia6CCCYwUDcI67y1mEMDsjJALcIGwBaPJvOgnlGVrWfUqJjZVEIux8AxEO1R//GlMCl+uSDsFJGu
-yS7WbioTxg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7bdafd43-3fce-4cfa-84e5-f45fb9652361"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>GQ8NEWLt60hHQaVrVWievYwZR5RbAtueTedGWHqbwkoLOzFuFTcFpORrgpAtZsqGw6hcYhGfFmB+
-bRxZXeBHuw==</DigestValue></Reference></SignedInfo><SignatureValue>jlFa1Vh1uPKPxuIay89wlJ7d8FP6LCUJHLTKyu/iN6SGM9DIJhLQxT8dnRsNj/5efDQ6slIhBvvl
-VRyRihFn1S8RSyLNHeVUuJyE2Qx5ZX/g0277ytd/puE4S9/D2h7LF88YY0kVX4zzUUfLWlGrm6Y2
-5alMh4elVtMZgbEulZc+B4i13JFqEYHXgcLgtgzfkDaufFT6km1znwbfkxaKTuTj0HqTe2kH0FhT
-TmhBn4//aqtcRwG11pmoPgdhF8w6LgAK+XfCvi2b+DR6zHdXjK2sSpcsy0j/J/5dtZIsI5ODU2Z0
-RDq24a1/ffSA45vhjbisfzQKPYlq5xZ9/oM9eA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_fe1c7571-19bc-4c63-b521-261fa1c097b7"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>pgQ7jHPNLGypX84Ei9QcxFVElvqU0n3N2f0DWpmqyQPYy72qYHmNmKJBD39tQnqAh/p2VJlenA8B
+iX5no0LF5w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a7922f9b-b683-4926-b17b-6bb3bc985ff7"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>P9lATO2OtGWPjuLTVd1myTqWADVXHVulyD19gFFpLWC/oetEWjdwoedOLrze/xuQ4bHuoUfIXpSC
+eSRIp0+/RQ==</DigestValue></Reference></SignedInfo><SignatureValue>MxMn30npJMz3wVu2zeFiECLlTFeVaLPwu913JhkEZLDWzuOwVqlaxRVeTBLMEL3b+DJdlVJ0WMj2
+YzBEHGPkxbxF8jRfxyTfJnmqXlPloxkKgjVKURB7hGmatEYRRWJWTH1FzDCxwXhk421Cu3E5zX2m
+YpsEoIOtESbHmiQ2UVrAXF+paUdSwmx43seZTO02Q/ZoVGJRvK0q3I+UWahcPFg3yRfJcGk3sY4P
+hhfySMQKrWzRGh6Ob309AJpEuZ4kVpOIqDvMsCyGT4usgdhlHBYBVLqVTTU4Q5CdCmvM+ZvenMIb
+6URvXPhxzCebqNjhYhsC7/MlaHKdQ4ooOVHSTg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -674,4 +674,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7bdafd43-3fce-4cfa-84e5-f45fb9652361" Target="#_131c64af-36f9-4c89-b9d0-585b7ea9b378"><Timestamp>2021-04-06 07:23:47</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a7922f9b-b683-4926-b17b-6bb3bc985ff7" Target="#_fe1c7571-19bc-4c63-b521-261fa1c097b7"><Timestamp>2021-04-06 07:24:36</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

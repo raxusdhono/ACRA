@@ -1,0 +1,1235 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testcontainer:TestContainer xmlns:testcontainer="http://www.talend.com/testcontainer.ecore" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" originalJobID="_wdwQUJLbEeuAMI4QGlq8UA" parentVersion="0.1" xmi:id="_IQwBkJakEeuVZa89U7ctLg" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default" xmi:id="_IQwBkZakEeuVZa89U7ctLg">
+    <contextParameter comment="" name="acra_company_revenue" prompt="acra_company_revenue?" promptNeeded="false" repositoryContextId="_FmE6oJLsEeuAMI4QGlq8UA" type="id_String" value="acra-company-revenue.csv" xmi:id="_IQwBkpakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="acra_company_support" prompt="acra_company_support?" promptNeeded="false" repositoryContextId="_FmE6oJLsEeuAMI4QGlq8UA" type="id_String" value="acra-company-support-scheme.csv" xmi:id="_IQwBk5akEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="acra_information_corporate_entities_a" prompt="acra_information_corporate_entities_a?" promptNeeded="false" repositoryContextId="_FmE6oJLsEeuAMI4QGlq8UA" type="id_String" value="acra-information-on-corporate-entities-a.csv" xmi:id="_IQwBlJakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="acra_information_corporate_entities_b" prompt="acra_information_corporate_entities_b?" promptNeeded="false" repositoryContextId="_FmE6oJLsEeuAMI4QGlq8UA" type="id_String" value="acra-information-on-corporate-entities-b.csv" xmi:id="_IQwBlZakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="acra_information_corporate_entities_c" prompt="acra_information_corporate_entities_c?" promptNeeded="false" repositoryContextId="_FmE6oJLsEeuAMI4QGlq8UA" type="id_String" value="acra-information-on-corporate-entities-c.csv" xmi:id="_IQwBlpakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="re_db_process_path" prompt="re_db_process_path?" promptNeeded="false" repositoryContextId="_fVMZoJLrEeuAMI4QGlq8UA" type="id_String" value="C:\Users\rnayak\OneDrive - ABeam Consulting Ltd\Desktop\demo\process\" xmi:id="_IQwBl5akEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="re_live_path" prompt="re_live_path?" promptNeeded="false" repositoryContextId="_fVMZoJLrEeuAMI4QGlq8UA" type="id_String" value="C:\Users\rnayak\OneDrive - ABeam Consulting Ltd\Desktop\demo\New files\" xmi:id="_IQwBmJakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="re_process_path" prompt="re_process_path?" promptNeeded="false" repositoryContextId="_fVMZoJLrEeuAMI4QGlq8UA" type="id_String" value="C:\Users\rnayak\OneDrive - ABeam Consulting Ltd\Desktop\demo\process\" xmi:id="_IQwBmZakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="re_reject_archive" prompt="re_reject_archive?" promptNeeded="false" repositoryContextId="_fVMZoJLrEeuAMI4QGlq8UA" type="id_String" value="C:\Users\rnayak\OneDrive - ABeam Consulting Ltd\Desktop\demo\Archive\" xmi:id="_IQwBmpakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="re_reject_path" prompt="re_reject_path?" promptNeeded="false" repositoryContextId="_fVMZoJLrEeuAMI4QGlq8UA" type="id_String" value="C:\Users\rnayak\OneDrive - ABeam Consulting Ltd\Desktop\demo\Reject\" xmi:id="_IQwBm5akEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="DEMO_REDSHIFT_AdditionalParams" prompt="DEMO_REDSHIFT_AdditionalParams?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="" xmi:id="_IQwBnJakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="DEMO_REDSHIFT_Database" prompt="DEMO_REDSHIFT_Database?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="acra_rsdw" xmi:id="_IQwBnZakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="DEMO_REDSHIFT_Login" prompt="DEMO_REDSHIFT_Login?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="awsuser" xmi:id="_IQwBnpakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="DEMO_REDSHIFT_Password" prompt="DEMO_REDSHIFT_Password?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_Password" value="enc:system.encryption.key.v1:5Q/opvqeTi158hiS99YD+h/2a+TQwF+ljnyBZekqT5jholsEN/t1" xmi:id="_IQwBn5akEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="DEMO_REDSHIFT_Port" prompt="DEMO_REDSHIFT_Port?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="5439" xmi:id="_IQwBoJakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="DEMO_REDSHIFT_Schema" prompt="DEMO_REDSHIFT_Schema?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="acra_stg" xmi:id="_IQwBoZakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="DEMO_REDSHIFT_Server" prompt="DEMO_REDSHIFT_Server?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="acra-redshift-cluster-1.c512fpj9gapb.ap-southeast-1.redshift.amazonaws.com" xmi:id="_IQwBopakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="s3_analytics_bucket" prompt="s3_analytics_bucket?" promptNeeded="false" repositoryContextId="_NNIqEJLVEeuAMI4QGlq8UA" type="id_String" value="acras3-analytics" xmi:id="_IQwBo5akEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="s3_bucket_access_key" prompt="s3_bucket_access_key?" promptNeeded="false" repositoryContextId="_NNIqEJLVEeuAMI4QGlq8UA" type="id_String" value="&quot;AKIAZKISIQPPSWCRQFWI&quot;" xmi:id="_IQwBpJakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="s3_curated_bucket" prompt="s3_curated_bucket?" promptNeeded="false" repositoryContextId="_NNIqEJLVEeuAMI4QGlq8UA" type="id_String" value="acras3-curated" xmi:id="_IQwBpZakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="s3_raw_bucket" prompt="s3_raw_bucket?" promptNeeded="false" repositoryContextId="_NNIqEJLVEeuAMI4QGlq8UA" type="id_String" value="acras3-raw" xmi:id="_IQwBppakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="S3_Secret_access_key" prompt="S3_Secret_access_key?" promptNeeded="false" repositoryContextId="_NNIqEJLVEeuAMI4QGlq8UA" type="id_String" value="&quot;isnXlrgFIiYnBk1tAdLdvdMK3zeME0jxt0RP6aA2&quot;" xmi:id="_IQwBp5akEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="Tal_remote_server" prompt="Tal_remote_server?" promptNeeded="false" repositoryContextId="_NNIqEJLVEeuAMI4QGlq8UA" type="id_String" value="C:\Users\rnayak\OneDrive - ABeam Consulting Ltd\Desktop\demo\New files" xmi:id="_IQwBqJakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="Tal_remote_server_archive" prompt="Tal_remote_server_archive?" promptNeeded="false" repositoryContextId="_NNIqEJLVEeuAMI4QGlq8UA" type="id_String" value="C:\Users\rnayak\OneDrive - ABeam Consulting Ltd\Desktop\demo\Archive" xmi:id="_IQwBqZakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="input_file1" prompt="input_file1?" promptNeeded="false" type="id_File" value="" xmi:id="_IQwBqpakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="reference_file1" prompt="reference_file1?" promptNeeded="false" type="id_File" value="" xmi:id="_IQwBq5akEeuVZa89U7ctLg"/>
+  </context>
+  <context confirmationNeeded="false" name="Acra_Demo" xmi:id="_IQwBrJakEeuVZa89U7ctLg">
+    <contextParameter comment="" name="acra_company_revenue" prompt="acra_company_revenue?" promptNeeded="false" repositoryContextId="_FmE6oJLsEeuAMI4QGlq8UA" type="id_String" value="acra-company-revenue.csv" xmi:id="_IQwBrZakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="acra_company_support" prompt="acra_company_support?" promptNeeded="false" repositoryContextId="_FmE6oJLsEeuAMI4QGlq8UA" type="id_String" value="acra-company-support-scheme.csv" xmi:id="_IQwBrpakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="acra_information_corporate_entities_a" prompt="acra_information_corporate_entities_a?" promptNeeded="false" repositoryContextId="_FmE6oJLsEeuAMI4QGlq8UA" type="id_String" value="acra-information-on-corporate-entities-a.csv" xmi:id="_IQwBr5akEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="acra_information_corporate_entities_b" prompt="acra_information_corporate_entities_b?" promptNeeded="false" repositoryContextId="_FmE6oJLsEeuAMI4QGlq8UA" type="id_String" value="acra-information-on-corporate-entities-b.csv" xmi:id="_IQwBsJakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="acra_information_corporate_entities_c" prompt="acra_information_corporate_entities_c?" promptNeeded="false" repositoryContextId="_FmE6oJLsEeuAMI4QGlq8UA" type="id_String" value="acra-information-on-corporate-entities-c.csv" xmi:id="_IQwBsZakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="re_db_process_path" prompt="re_db_process_path?" promptNeeded="false" repositoryContextId="_fVMZoJLrEeuAMI4QGlq8UA" type="id_String" value="D:\Acra_Demo_Talend_remote_server_files\Demo\DB_Process" xmi:id="_IQwBspakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="re_live_path" prompt="re_live_path?" promptNeeded="false" repositoryContextId="_fVMZoJLrEeuAMI4QGlq8UA" type="id_String" value="D:\Acra_Demo_Talend_remote_server_files\Demo\Live" xmi:id="_IQwBs5akEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="re_process_path" prompt="re_process_path?" promptNeeded="false" repositoryContextId="_fVMZoJLrEeuAMI4QGlq8UA" type="id_String" value="D:\Acra_Demo_Talend_remote_server_files\Demo\Process" xmi:id="_IQwBtJakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="re_reject_archive" prompt="re_reject_archive?" promptNeeded="false" repositoryContextId="_fVMZoJLrEeuAMI4QGlq8UA" type="id_String" value="D:\Acra_Demo_Talend_remote_server_files\Demo\Reject" xmi:id="_IQwBtZakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="re_reject_path" prompt="re_reject_path?" promptNeeded="false" repositoryContextId="_fVMZoJLrEeuAMI4QGlq8UA" type="id_String" value="D:\Acra_Demo_Talend_remote_server_files\Demo\Reject" xmi:id="_IQwBtpakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="DEMO_REDSHIFT_AdditionalParams" prompt="DEMO_REDSHIFT_AdditionalParams?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="" xmi:id="_IQwBt5akEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="DEMO_REDSHIFT_Database" prompt="DEMO_REDSHIFT_Database?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="acra_rsdw" xmi:id="_IQwBuJakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="DEMO_REDSHIFT_Login" prompt="DEMO_REDSHIFT_Login?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="awsuser" xmi:id="_IQwBuZakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="DEMO_REDSHIFT_Password" prompt="DEMO_REDSHIFT_Password?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_Password" value="enc:system.encryption.key.v1:QeEoz8N1OrAgB4sljdPt6dRtQIxqURnOv88AeNUaPc9tu+UhpA+Y" xmi:id="_IQwBupakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="DEMO_REDSHIFT_Port" prompt="DEMO_REDSHIFT_Port?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="5439" xmi:id="_IQwBu5akEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="DEMO_REDSHIFT_Schema" prompt="DEMO_REDSHIFT_Schema?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="acra_stg" xmi:id="_IQwBvJakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="DEMO_REDSHIFT_Server" prompt="DEMO_REDSHIFT_Server?" promptNeeded="false" repositoryContextId="_em0rAJLbEeuAMI4QGlq8UA" type="id_String" value="acra-redshift-cluster-1.c512fpj9gapb.ap-southeast-1.redshift.amazonaws.com" xmi:id="_IQwBvZakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="s3_analytics_bucket" prompt="s3_analytics_bucket?" promptNeeded="false" repositoryContextId="_NNIqEJLVEeuAMI4QGlq8UA" type="id_String" value="acras3-analytics" xmi:id="_IQwBvpakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="s3_bucket_access_key" prompt="s3_bucket_access_key?" promptNeeded="false" repositoryContextId="_NNIqEJLVEeuAMI4QGlq8UA" type="id_String" value="&quot;AKIAZKISIQPPSWCRQFWI&quot;" xmi:id="_IQwBv5akEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="s3_curated_bucket" prompt="s3_curated_bucket?" promptNeeded="false" repositoryContextId="_NNIqEJLVEeuAMI4QGlq8UA" type="id_String" value="acras3-curated" xmi:id="_IQwBwJakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="s3_raw_bucket" prompt="s3_raw_bucket?" promptNeeded="false" repositoryContextId="_NNIqEJLVEeuAMI4QGlq8UA" type="id_String" value="acras3-raw" xmi:id="_IQwBwZakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="S3_Secret_access_key" prompt="S3_Secret_access_key?" promptNeeded="false" repositoryContextId="_NNIqEJLVEeuAMI4QGlq8UA" type="id_String" value="&quot;isnXlrgFIiYnBk1tAdLdvdMK3zeME0jxt0RP6aA2&quot;" xmi:id="_IQwBwpakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="Tal_remote_server" prompt="Tal_remote_server?" promptNeeded="false" repositoryContextId="_NNIqEJLVEeuAMI4QGlq8UA" type="id_String" value="" xmi:id="_IQwBw5akEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="Tal_remote_server_archive" prompt="Tal_remote_server_archive?" promptNeeded="false" repositoryContextId="_NNIqEJLVEeuAMI4QGlq8UA" type="id_String" value="" xmi:id="_IQwBxJakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="input_file1" prompt="input_file1?" promptNeeded="false" type="id_File" value="" xmi:id="_IQwBxZakEeuVZa89U7ctLg"/>
+    <contextParameter comment="" name="reference_file1" prompt="reference_file1?" promptNeeded="false" type="id_File" value="" xmi:id="_IQwBxpakEeuVZa89U7ctLg"/>
+  </context>
+  <parameters xmi:id="_IQwBx5akEeuVZa89U7ctLg">
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0" xmi:id="_IQwByJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0" xmi:id="_IQwByZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value="" xmi:id="_IQwBypakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value="" xmi:id="_IQwBy5akEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value="" xmi:id="_IQwBzJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value="" xmi:id="_IQwBzZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value="" xmi:id="_IQwBzpakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value="" xmi:id="_IQwBz5akEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value="" xmi:id="_IQwB0JakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value="" xmi:id="_IQwB0ZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value="" xmi:id="_IQwB0pakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value="" xmi:id="_IQwB05akEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value="" xmi:id="_IQwB1JakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value="" xmi:id="_IQwB1ZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value="" xmi:id="_IQwB1pakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value="" xmi:id="_IQwB15akEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value="" xmi:id="_IQwB2JakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="false" xmi:id="_IQwB2ZakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="false" xmi:id="_IQwB2pakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false" xmi:id="_IQwB25akEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000" xmi:id="_IQwB3JakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false" xmi:id="_IQwB3ZakEeuVZa89U7ctLg"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false" xmi:id="_IQwB3pakEeuVZa89U7ctLg"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false" xmi:id="_IQwB35akEeuVZa89U7ctLg"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;C:/Talend_acra_demo_workspace/in.csv&quot;" xmi:id="_IQwB4JakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;" xmi:id="_IQwB4ZakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false" xmi:id="_IQwB4pakEeuVZa89U7ctLg"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15" xmi:id="_IQwB45akEeuVZa89U7ctLg"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15" xmi:id="_IQwB5JakEeuVZa89U7ctLg"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value="" xmi:id="_IQwB5ZakEeuVZa89U7ctLg"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value="ORACLE_12" xmi:id="_IQwB5pakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_IQwB55akEeuVZa89U7ctLg"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false" xmi:id="_IQwB6JakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_IQwB6ZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_IQwB6pakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_IQwB65akEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_IQwB7JakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_IQwB7ZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_IQwB7pakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_IQwB75akEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_IQwB8JakEeuVZa89U7ctLg"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:7LFM9ecXAcjgW2Tfd8+qzsgTXQj1OXX9w0+CN0rB" xmi:id="_IQwB8ZakEeuVZa89U7ctLg"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_IQwB8pakEeuVZa89U7ctLg"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_IQwB85akEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;" xmi:id="_IQwB9JakEeuVZa89U7ctLg"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning" xmi:id="_IQwB9ZakEeuVZa89U7ctLg"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning" xmi:id="_IQwB9pakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false" xmi:id="_IQwB95akEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false" xmi:id="_IQwB-JakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="true" xmi:id="_IQwB-ZakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="true" xmi:id="_IQwB-pakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false" xmi:id="_IQwB-5akEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false" xmi:id="_IQwB_JakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false" xmi:id="_IQwB_ZakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false" xmi:id="_IQwB_pakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false" xmi:id="_IQwB_5akEeuVZa89U7ctLg"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Talend_acra_demo_workspace/.metadata&quot;" xmi:id="_IQwCAJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;" xmi:id="_IQwCAZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;" xmi:id="_IQwCApakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;" xmi:id="_IQwCA5akEeuVZa89U7ctLg"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15" xmi:id="_IQwCBJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15" xmi:id="_IQwCBZakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false" xmi:id="_IQwCBpakEeuVZa89U7ctLg"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput" xmi:id="_IQwCB5akEeuVZa89U7ctLg"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12" xmi:id="_IQwCCJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;" xmi:id="_IQwCCZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false" xmi:id="_IQwCCpakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;" xmi:id="_IQwCC5akEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;" xmi:id="_IQwCDJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;" xmi:id="_IQwCDZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;" xmi:id="_IQwCDpakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;" xmi:id="_IQwCD5akEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;" xmi:id="_IQwCEJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;" xmi:id="_IQwCEZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;" xmi:id="_IQwCEpakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;" xmi:id="_IQwCE5akEeuVZa89U7ctLg"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:/cJeRkU2Ey1jqs1ef2qTvBm6ghMk8bpqsO0jG6es" xmi:id="_IQwCFJakEeuVZa89U7ctLg"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;" xmi:id="_IQwCFZakEeuVZa89U7ctLg"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;" xmi:id="_IQwCFpakEeuVZa89U7ctLg"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;" xmi:id="_IQwCF5akEeuVZa89U7ctLg"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;" xmi:id="_IQwCGJakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true" xmi:id="_IQwCGZakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true" xmi:id="_IQwCGpakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true" xmi:id="_IQwCG5akEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false" xmi:id="_IQwCHJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value="" xmi:id="_IQwCHZakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false" xmi:id="_IQwCHpakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value="" xmi:id="_IQwCH5akEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value="" xmi:id="_IQwCIJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value="" xmi:id="_IQwCIZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value="" xmi:id="_IQwCIpakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false" xmi:id="_IQwCI5akEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value="" xmi:id="_IQwCJJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value="" xmi:id="_IQwCJZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value="" xmi:id="_IQwCJpakEeuVZa89U7ctLg"/>
+    <routinesParameter id="_TRMs0JKqEeuY4pO9XQ-uHQ" name="DQTechnical" xmi:id="_IQwCJ5akEeuVZa89U7ctLg"/>
+    <routinesParameter id="_TQLZIJKqEeuY4pO9XQ-uHQ" name="DataMasking" xmi:id="_IQwCKJakEeuVZa89U7ctLg"/>
+    <routinesParameter id="_TRwGcJKqEeuY4pO9XQ-uHQ" name="DataOperation" xmi:id="_IQwCKZakEeuVZa89U7ctLg"/>
+    <routinesParameter id="_TQuLsJKqEeuY4pO9XQ-uHQ" name="DataQualityDependencies" xmi:id="_IQwCKpakEeuVZa89U7ctLg"/>
+    <routinesParameter id="_TQgJQJKqEeuY4pO9XQ-uHQ" name="DataQuality" xmi:id="_IQwCK5akEeuVZa89U7ctLg"/>
+    <routinesParameter id="_TQ8OIJKqEeuY4pO9XQ-uHQ" name="DqStringHandling" xmi:id="_IQwCLJakEeuVZa89U7ctLg"/>
+    <routinesParameter id="_TSBMMJKqEeuY4pO9XQ-uHQ" name="Mathematical" xmi:id="_IQwCLZakEeuVZa89U7ctLg"/>
+    <routinesParameter id="_TSYYkJKqEeuY4pO9XQ-uHQ" name="Numeric" xmi:id="_IQwCLpakEeuVZa89U7ctLg"/>
+    <routinesParameter id="_TSpeUJKqEeuY4pO9XQ-uHQ" name="Relational" xmi:id="_IQwCL5akEeuVZa89U7ctLg"/>
+    <routinesParameter id="_SlfdYJKqEeuY4pO9XQ-uHQ" name="SQLike" xmi:id="_IQwCMJakEeuVZa89U7ctLg"/>
+    <routinesParameter id="_TS25sJKqEeuY4pO9XQ-uHQ" name="StringHandling" xmi:id="_IQwCMZakEeuVZa89U7ctLg"/>
+    <routinesParameter id="_TTJ0oJKqEeuY4pO9XQ-uHQ" name="TalendDataGenerator" xmi:id="_IQwCMpakEeuVZa89U7ctLg"/>
+    <routinesParameter id="_TTbhcJKqEeuY4pO9XQ-uHQ" name="TalendDate" xmi:id="_IQwCM5akEeuVZa89U7ctLg"/>
+    <routinesParameter id="_TUAJMJKqEeuY4pO9XQ-uHQ" name="TalendStringUtil" xmi:id="_IQwCNJakEeuVZa89U7ctLg"/>
+    <routinesParameter id="_TTt1UJKqEeuY4pO9XQ-uHQ" name="TalendString" xmi:id="_IQwCNZakEeuVZa89U7ctLg"/>
+  </parameters>
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="832" posY="1312" xmi:id="_IQwCNpakEeuVZa89U7ctLg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1" xmi:id="_IQwCN5akEeuVZa89U7ctLg"/>
+    <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;" xmi:id="_IQwCOJakEeuVZa89U7ctLg"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.input_file1" xmi:id="_IQwCOZakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="true" xmi:id="_IQwCOpakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;" xmi:id="_IQwCO5akEeuVZa89U7ctLg"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" value="&quot;\n&quot;" xmi:id="_IQwCPJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;,&quot;" xmi:id="_IQwCPZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" value="&quot;\&quot;&quot;" xmi:id="_IQwCPpakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" value="&quot;\&quot;&quot;" xmi:id="_IQwCP5akEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="HEADER" value="0" xmi:id="_IQwCQJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="FOOTER" value="0" xmi:id="_IQwCQZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="LIMIT" value="" xmi:id="_IQwCQpakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="REMOVE_EMPTY_ROW" value="true" xmi:id="_IQwCQ5akEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="UNCOMPRESS" value="false" xmi:id="_IQwCRJakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false" xmi:id="_IQwCRZakEeuVZa89U7ctLg"/>
+    <elementParameter field="DIRECTORY" name="TEMP_DIR" show="false" value="&quot;C:/Talend_acra_demo_workspace&quot;" xmi:id="_IQwCRpakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false" xmi:id="_IQwCR5akEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;" xmi:id="_IQwCSJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;" xmi:id="_IQwCSZakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="RANDOM" show="false" value="false" xmi:id="_IQwCSpakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="NB_RANDOM" show="false" value="10" xmi:id="_IQwCS5akEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="TRIMALL" value="false" xmi:id="_IQwCTJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TABLE" name="TRIMSELECT" xmi:id="_IQwCTZakEeuVZa89U7ctLg">
+      <elementValue elementRef="SCHEMA_COLUMN" value="business_constitution_description" xmi:id="_IQwCTpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCT5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="primary_ssic_description" xmi:id="_IQwCUJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCUZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="primary_user_described_activity" xmi:id="_IQwCUpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCU5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="street_name" xmi:id="_IQwCVJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCVZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="entity_status_description" xmi:id="_IQwCVpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCV5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="annual_return_date" xmi:id="_IQwCWJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCWZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="postal_code" xmi:id="_IQwCWpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCW5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital10_preference" xmi:id="_IQwCXJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCXZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="entity_name" xmi:id="_IQwCXpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCX5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital2_others" xmi:id="_IQwCYJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCYZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="name_of_audit_firm3" xmi:id="_IQwCYpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCY5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="address_type" xmi:id="_IQwCZJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCZZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital9_currency" xmi:id="_IQwCZpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCZ5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital8_ordinary" xmi:id="_IQwCaJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCaZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital6_others" xmi:id="_IQwCapakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCa5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital6_ordinary" xmi:id="_IQwCbJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCbZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="level_no" xmi:id="_IQwCbpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCb5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital9_others" xmi:id="_IQwCcJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCcZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name9" xmi:id="_IQwCcpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCc5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital7_currency" xmi:id="_IQwCdJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCdZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital6_preference" xmi:id="_IQwCdpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCd5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital4_currency" xmi:id="_IQwCeJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCeZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="secondary_ssic_code" xmi:id="_IQwCepakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCe5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital7_preference" xmi:id="_IQwCfJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCfZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital1_preference" xmi:id="_IQwCfpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCf5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital2_preference" xmi:id="_IQwCgJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCgZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="uen" xmi:id="_IQwCgpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCg5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="uen_issue_date" xmi:id="_IQwChJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwChZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="no_of_officers" xmi:id="_IQwChpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCh5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name3" xmi:id="_IQwCiJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCiZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="building_name" xmi:id="_IQwCipakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCi5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="no_of_charges" xmi:id="_IQwCjJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCjZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital8_currency" xmi:id="_IQwCjpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCj5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital2_ordinary" xmi:id="_IQwCkJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCkZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital3_others" xmi:id="_IQwCkpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCk5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital4_others" xmi:id="_IQwClJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwClZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="secondary_ssic_description" xmi:id="_IQwClpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCl5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital10_currency" xmi:id="_IQwCmJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCmZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital8_others" xmi:id="_IQwCmpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCm5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital1_others" xmi:id="_IQwCnJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCnZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital3_currency" xmi:id="_IQwCnpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCn5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="block" xmi:id="_IQwCoJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCoZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="other_address_line2" xmi:id="_IQwCopakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCo5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="other_address_line1" xmi:id="_IQwCpJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCpZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="account_due_date" xmi:id="_IQwCppakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCp5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital7_ordinary" xmi:id="_IQwCqJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCqZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name8" xmi:id="_IQwCqpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCq5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital5_preference" xmi:id="_IQwCrJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCrZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name2" xmi:id="_IQwCrpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCr5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital3_preference" xmi:id="_IQwCsJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCsZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name1" xmi:id="_IQwCspakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCs5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name6" xmi:id="_IQwCtJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCtZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name7" xmi:id="_IQwCtpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCt5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name4" xmi:id="_IQwCuJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCuZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name5" xmi:id="_IQwCupakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCu5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital4_ordinary" xmi:id="_IQwCvJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCvZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="secondary_user_described_activity" xmi:id="_IQwCvpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCv5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="issuance_agency_id" xmi:id="_IQwCwJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCwZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name14" xmi:id="_IQwCwpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCw5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name15" xmi:id="_IQwCxJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCxZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name10" xmi:id="_IQwCxpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCx5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="registration_incorporation_date" xmi:id="_IQwCyJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCyZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name12" xmi:id="_IQwCypakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCy5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name13" xmi:id="_IQwCzJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCzZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital2_currency" xmi:id="_IQwCzpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwCz5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital1_currency" xmi:id="_IQwC0JakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC0ZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital8_preference" xmi:id="_IQwC0pakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC05akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="primary_ssic_code" xmi:id="_IQwC1JakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC1ZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="name_of_audit_firm5" xmi:id="_IQwC1pakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC15akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="name_of_audit_firm4" xmi:id="_IQwC2JakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC2ZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="name_of_audit_firm1" xmi:id="_IQwC2pakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC25akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paf_constitution_description" xmi:id="_IQwC3JakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC3ZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="name_of_audit_firm2" xmi:id="_IQwC3pakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC35akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital9_ordinary" xmi:id="_IQwC4JakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC4ZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital4_preference" xmi:id="_IQwC4pakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC45akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name11" xmi:id="_IQwC5JakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC5ZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="unit_no" xmi:id="_IQwC5pakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC55akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital5_others" xmi:id="_IQwC6JakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC6ZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital6_currency" xmi:id="_IQwC6pakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC65akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital5_currency" xmi:id="_IQwC7JakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC7ZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="company_type_description" xmi:id="_IQwC7pakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC75akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="uen_of_audit_firm3" xmi:id="_IQwC8JakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC8ZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="uen_of_audit_firm2" xmi:id="_IQwC8pakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC85akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="uen_of_audit_firm1" xmi:id="_IQwC9JakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC9ZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital10_ordinary" xmi:id="_IQwC9pakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC95akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital10_others" xmi:id="_IQwC-JakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC-ZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="uen_of_audit_firm4" xmi:id="_IQwC-pakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC-5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital7_others" xmi:id="_IQwC_JakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC_ZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="uen_of_audit_firm5" xmi:id="_IQwC_pakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwC_5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="entity_type_description" xmi:id="_IQwDAJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwDAZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital3_ordinary" xmi:id="_IQwDApakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwDA5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital5_ordinary" xmi:id="_IQwDBJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwDBZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital9_preference" xmi:id="_IQwDBpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwDB5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital1_ordinary" xmi:id="_IQwDCJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="TRIM" value="false" xmi:id="_IQwDCZakEeuVZa89U7ctLg"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="CHECK_FIELDS_NUM" value="false" xmi:id="_IQwDCpakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false" xmi:id="_IQwDC5akEeuVZa89U7ctLg"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" xmi:id="_IQwDDJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" xmi:id="_IQwDDZakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="SPLITRECORD" show="false" value="false" xmi:id="_IQwDDpakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="ENABLE_DECODE" value="false" xmi:id="_IQwDD5akEeuVZa89U7ctLg"/>
+    <elementParameter field="TABLE" name="DECODE_COLS" show="false" xmi:id="_IQwDEJakEeuVZa89U7ctLg">
+      <elementValue elementRef="SCHEMA_COLUMN" value="business_constitution_description" xmi:id="_IQwDEZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDEpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="primary_ssic_description" xmi:id="_IQwDE5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDFJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="primary_user_described_activity" xmi:id="_IQwDFZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDFpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="street_name" xmi:id="_IQwDF5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDGJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="entity_status_description" xmi:id="_IQwDGZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDGpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="annual_return_date" xmi:id="_IQwDG5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDHJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="postal_code" xmi:id="_IQwDHZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDHpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital10_preference" xmi:id="_IQwDH5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDIJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="entity_name" xmi:id="_IQwDIZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDIpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital2_others" xmi:id="_IQwDI5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDJJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="name_of_audit_firm3" xmi:id="_IQwDJZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDJpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="address_type" xmi:id="_IQwDJ5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDKJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital9_currency" xmi:id="_IQwDKZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDKpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital8_ordinary" xmi:id="_IQwDK5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDLJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital6_others" xmi:id="_IQwDLZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDLpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital6_ordinary" xmi:id="_IQwDL5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDMJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="level_no" xmi:id="_IQwDMZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDMpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital9_others" xmi:id="_IQwDM5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDNJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name9" xmi:id="_IQwDNZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDNpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital7_currency" xmi:id="_IQwDN5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDOJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital6_preference" xmi:id="_IQwDOZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDOpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital4_currency" xmi:id="_IQwDO5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDPJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="secondary_ssic_code" xmi:id="_IQwDPZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDPpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital7_preference" xmi:id="_IQwDP5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDQJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital1_preference" xmi:id="_IQwDQZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDQpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital2_preference" xmi:id="_IQwDQ5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDRJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="uen" xmi:id="_IQwDRZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDRpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="uen_issue_date" xmi:id="_IQwDR5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDSJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="no_of_officers" xmi:id="_IQwDSZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDSpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name3" xmi:id="_IQwDS5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDTJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="building_name" xmi:id="_IQwDTZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDTpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="no_of_charges" xmi:id="_IQwDT5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDUJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital8_currency" xmi:id="_IQwDUZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDUpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital2_ordinary" xmi:id="_IQwDU5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDVJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital3_others" xmi:id="_IQwDVZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDVpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital4_others" xmi:id="_IQwDV5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDWJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="secondary_ssic_description" xmi:id="_IQwDWZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDWpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital10_currency" xmi:id="_IQwDW5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDXJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital8_others" xmi:id="_IQwDXZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDXpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital1_others" xmi:id="_IQwDX5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDYJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital3_currency" xmi:id="_IQwDYZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDYpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="block" xmi:id="_IQwDY5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDZJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="other_address_line2" xmi:id="_IQwDZZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDZpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="other_address_line1" xmi:id="_IQwDZ5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDaJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="account_due_date" xmi:id="_IQwDaZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDapakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital7_ordinary" xmi:id="_IQwDa5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDbJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name8" xmi:id="_IQwDbZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDbpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital5_preference" xmi:id="_IQwDb5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDcJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name2" xmi:id="_IQwDcZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDcpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital3_preference" xmi:id="_IQwDc5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDdJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name1" xmi:id="_IQwDdZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDdpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name6" xmi:id="_IQwDd5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDeJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name7" xmi:id="_IQwDeZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDepakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name4" xmi:id="_IQwDe5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDfJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name5" xmi:id="_IQwDfZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDfpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital4_ordinary" xmi:id="_IQwDf5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDgJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="secondary_user_described_activity" xmi:id="_IQwDgZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDgpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="issuance_agency_id" xmi:id="_IQwDg5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDhJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name14" xmi:id="_IQwDhZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDhpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name15" xmi:id="_IQwDh5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDiJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name10" xmi:id="_IQwDiZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDipakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="registration_incorporation_date" xmi:id="_IQwDi5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDjJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name12" xmi:id="_IQwDjZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDjpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name13" xmi:id="_IQwDj5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDkJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital2_currency" xmi:id="_IQwDkZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDkpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital1_currency" xmi:id="_IQwDk5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDlJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital8_preference" xmi:id="_IQwDlZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDlpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="primary_ssic_code" xmi:id="_IQwDl5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDmJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="name_of_audit_firm5" xmi:id="_IQwDmZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDmpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="name_of_audit_firm4" xmi:id="_IQwDm5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDnJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="name_of_audit_firm1" xmi:id="_IQwDnZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDnpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paf_constitution_description" xmi:id="_IQwDn5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDoJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="name_of_audit_firm2" xmi:id="_IQwDoZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDopakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital9_ordinary" xmi:id="_IQwDo5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDpJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital4_preference" xmi:id="_IQwDpZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDppakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="former_entity_name11" xmi:id="_IQwDp5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDqJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="unit_no" xmi:id="_IQwDqZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDqpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital5_others" xmi:id="_IQwDq5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDrJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital6_currency" xmi:id="_IQwDrZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDrpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital5_currency" xmi:id="_IQwDr5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDsJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="company_type_description" xmi:id="_IQwDsZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDspakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="uen_of_audit_firm3" xmi:id="_IQwDs5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDtJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="uen_of_audit_firm2" xmi:id="_IQwDtZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDtpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="uen_of_audit_firm1" xmi:id="_IQwDt5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDuJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital10_ordinary" xmi:id="_IQwDuZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDupakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital10_others" xmi:id="_IQwDu5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDvJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="uen_of_audit_firm4" xmi:id="_IQwDvZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDvpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital7_others" xmi:id="_IQwDv5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDwJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="uen_of_audit_firm5" xmi:id="_IQwDwZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDwpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="entity_type_description" xmi:id="_IQwDw5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDxJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital3_ordinary" xmi:id="_IQwDxZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDxpakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital5_ordinary" xmi:id="_IQwDx5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDyJakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital9_preference" xmi:id="_IQwDyZakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDypakEeuVZa89U7ctLg"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="paid_up_capital1_ordinary" xmi:id="_IQwDy5akEeuVZa89U7ctLg"/>
+      <elementValue elementRef="DECODE" value="false" xmi:id="_IQwDzJakEeuVZa89U7ctLg"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="DESTINATION" show="false" value="" xmi:id="_IQwDzZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100" xmi:id="_IQwDzpakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_IQwDz5akEeuVZa89U7ctLg"/>
+    <metadata connector="FLOW" label="metadata" name="tFileInputDelimited_1" xmi:id="_IQwD0JakEeuVZa89U7ctLg">
+      <column comment="" key="false" length="255" name="business_constitution_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD0ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="primary_ssic_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD0pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="primary_user_described_activity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD05akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="street_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD1JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="entity_status_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD1ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="annual_return_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD1pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="postal_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD15akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital10_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD2JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="entity_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD2ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital2_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD2pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD25akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="address_type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD3JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital9_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD3ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital8_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD3pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital6_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD35akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital6_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD4JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="level_no" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD4ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital9_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD4pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name9" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD45akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital7_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD5JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital6_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD5ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital4_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD5pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="secondary_ssic_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD55akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital7_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD6JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital1_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD6ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital2_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD6pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD65akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_issue_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD7JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="10" name="no_of_officers" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true" xmi:id="_IQwD7ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD7pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="building_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD75akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="10" name="no_of_charges" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true" xmi:id="_IQwD8JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital8_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD8ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital2_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD8pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital3_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD85akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital4_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD9JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="secondary_ssic_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD9ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital10_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD9pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital8_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD95akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital1_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD-JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital3_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD-ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="block" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD-pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="other_address_line2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD-5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="other_address_line1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD_JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="account_due_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD_ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital7_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD_pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name8" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwD_5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital5_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEAJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEAZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital3_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEApakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEA5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name6" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEBJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name7" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEBZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name4" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEBpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name5" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEB5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital4_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwECJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="secondary_user_described_activity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwECZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="issuance_agency_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwECpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name14" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEC5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name15" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEDJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name10" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEDZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="registration_incorporation_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEDpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name12" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwED5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name13" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEEJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital2_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEEZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital1_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEEpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital8_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEE5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="primary_ssic_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true" xmi:id="_IQwEFJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm5" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEFZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm4" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEFpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEF5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paf_constitution_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEGJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEGZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital9_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEGpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital4_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEG5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name11" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEHJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="unit_no" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEHZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital5_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEHpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital6_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEH5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital5_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEIJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="company_type_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEIZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEIpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEI5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEJJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital10_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEJZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital10_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEJpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm4" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEJ5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital7_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEKJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm5" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEKZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="entity_type_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEKpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital3_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEK5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital5_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwELJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital9_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwELZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital1_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwELpakEeuVZa89U7ctLg"/>
+    </metadata>
+    <metadata connector="REJECT" label="metadata" name="REJECT" xmi:id="_IQwEL5akEeuVZa89U7ctLg">
+      <column comment="" key="false" length="255" name="business_constitution_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEMJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="primary_ssic_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEMZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="primary_user_described_activity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEMpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="street_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEM5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="entity_status_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwENJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="annual_return_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwENZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="postal_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwENpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital10_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEN5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="entity_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEOJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital2_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEOZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEOpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="address_type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEO5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital9_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEPJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital8_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEPZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital6_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEPpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital6_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEP5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="level_no" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEQJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital9_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEQZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name9" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEQpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital7_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEQ5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital6_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwERJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital4_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwERZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="secondary_ssic_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwERpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital7_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwER5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital1_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwESJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital2_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwESZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwESpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_issue_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwES5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="10" name="no_of_officers" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true" xmi:id="_IQwETJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwETZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="building_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwETpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="10" name="no_of_charges" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true" xmi:id="_IQwET5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital8_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEUJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital2_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEUZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital3_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEUpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital4_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEU5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="secondary_ssic_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEVJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital10_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEVZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital8_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEVpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital1_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEV5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital3_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEWJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="block" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEWZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="other_address_line2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEWpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="other_address_line1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEW5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="account_due_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEXJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital7_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEXZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name8" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEXpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital5_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEX5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEYJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital3_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEYZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEYpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name6" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEY5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name7" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEZJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name4" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEZZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name5" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEZpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital4_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEZ5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="secondary_user_described_activity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEaJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="issuance_agency_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEaZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name14" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEapakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name15" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEa5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name10" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEbJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="registration_incorporation_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEbZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name12" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEbpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name13" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEb5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital2_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEcJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital1_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEcZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital8_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEcpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="primary_ssic_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true" xmi:id="_IQwEc5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm5" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEdJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm4" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEdZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEdpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paf_constitution_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEd5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEeJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital9_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEeZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital4_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEepakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name11" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEe5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="unit_no" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEfJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital5_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEfZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital6_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEfpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital5_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEf5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="company_type_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEgJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEgZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEgpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEg5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital10_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEhJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital10_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEhZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm4" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEhpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital7_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEh5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm5" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEiJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="entity_type_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEiZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital3_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEipakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital5_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEi5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital9_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEjJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital1_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEjZakEeuVZa89U7ctLg"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true" xmi:id="_IQwEjpakEeuVZa89U7ctLg"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true" xmi:id="_IQwEj5akEeuVZa89U7ctLg"/>
+    </metadata>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1568" posY="1312" xmi:id="_IQwEkJakEeuVZa89U7ctLg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_1" xmi:id="_IQwEkZakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false" xmi:id="_IQwEkpakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream" xmi:id="_IQwEk5akEeuVZa89U7ctLg"/>
+    <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;))" xmi:id="_IQwElJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;" xmi:id="_IQwElZakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" show="false" value="true" xmi:id="_IQwElpakEeuVZa89U7ctLg"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;" xmi:id="_IQwEl5akEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;,&quot;" xmi:id="_IQwEmJakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="APPEND" value="false" xmi:id="_IQwEmZakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="false" xmi:id="_IQwEmpakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false" xmi:id="_IQwEm5akEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false" xmi:id="_IQwEnJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;" xmi:id="_IQwEnZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;" xmi:id="_IQwEnpakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false" xmi:id="_IQwEn5akEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" show="false" value="&quot;&quot;&quot;" xmi:id="_IQwEoJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;&quot;&quot;" xmi:id="_IQwEoZakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="CREATE" value="true" xmi:id="_IQwEopakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false" xmi:id="_IQwEo5akEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" show="false" value="1000" xmi:id="_IQwEpJakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false" xmi:id="_IQwEpZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="1" xmi:id="_IQwEppakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false" xmi:id="_IQwEp5akEeuVZa89U7ctLg"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" xmi:id="_IQwEqJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" xmi:id="_IQwEqZakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false" xmi:id="_IQwEqpakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="false" xmi:id="_IQwEq5akEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="90" xmi:id="_IQwErJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_IQwErZakEeuVZa89U7ctLg"/>
+    <metadata connector="FLOW" label="DIrect_Map" name="tFileOutputDelimited_1" xmi:id="_IQwErpakEeuVZa89U7ctLg">
+      <column comment="" key="false" length="255" name="business_constitution_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEr5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="primary_ssic_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEsJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="primary_user_described_activity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEsZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="street_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEspakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="entity_status_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEs5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="annual_return_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEtJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="postal_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEtZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital10_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEtpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="entity_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEt5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital2_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEuJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEuZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="address_type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEupakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital9_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEu5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital8_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEvJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital6_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEvZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital6_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEvpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="level_no" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEv5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital9_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEwJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name9" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEwZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital7_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEwpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital6_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEw5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital4_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwExJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="secondary_ssic_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwExZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital7_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwExpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital1_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEx5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital2_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEyJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEyZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_issue_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEypakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="10" name="no_of_officers" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true" xmi:id="_IQwEy5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEzJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="building_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEzZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="10" name="no_of_charges" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true" xmi:id="_IQwEzpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital8_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwEz5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital2_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE0JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital3_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE0ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital4_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE0pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="secondary_ssic_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE05akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital10_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE1JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital8_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE1ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital1_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE1pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital3_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE15akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="block" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE2JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="other_address_line2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE2ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="other_address_line1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE2pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="account_due_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE25akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital7_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE3JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name8" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE3ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital5_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE3pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE35akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital3_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE4JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE4ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name6" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE4pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name7" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE45akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name4" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE5JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name5" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE5ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital4_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE5pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="secondary_user_described_activity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE55akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="issuance_agency_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE6JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name14" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE6ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name15" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE6pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name10" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE65akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="registration_incorporation_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE7JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name12" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE7ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name13" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE7pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital2_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE75akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital1_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE8JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital8_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE8ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="primary_ssic_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true" xmi:id="_IQwE8pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm5" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE85akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm4" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE9JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE9ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paf_constitution_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE9pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE95akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital9_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE-JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital4_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE-ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name11" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE-pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="unit_no" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE-5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital5_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE_JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital6_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE_ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital5_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE_pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="company_type_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwE_5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFAJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFAZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFApakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital10_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFA5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital10_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFBJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm4" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFBZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital7_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFBpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm5" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFB5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="entity_type_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFCJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital3_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFCZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital5_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFCpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital9_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFC5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital1_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFDJakEeuVZa89U7ctLg"/>
+    </metadata>
+  </node>
+  <node componentName="tCreateTemporaryFile" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="832" posY="1152" xmi:id="_IQwFDZakEeuVZa89U7ctLg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tCreateTemporaryFile_1" xmi:id="_IQwFDpakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="REMOVE" value="true" xmi:id="_IQwFD5akEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="USE_DEFAULT_DIR" value="true" xmi:id="_IQwFEJakEeuVZa89U7ctLg"/>
+    <elementParameter field="DIRECTORY" name="DIRECTORY" show="false" value="&quot;C:/Talend_acra_demo_workspace&quot;" xmi:id="_IQwFEZakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="USE_PREFIX" value="true" xmi:id="_IQwFEpakEeuVZa89U7ctLg"/>
+    <elementParameter field="LABEL" name="INFO_RANGE" show="false" value="The temporary file name should include template &quot;XXXX&quot;. Template is deprecated. Use Prefix instead." xmi:id="_IQwFE5akEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="TEMPLATE" show="false" value="&quot;talend_XXXX&quot;" xmi:id="_IQwFFJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="PREFIX" value="&quot;talend_&quot;" xmi:id="_IQwFFZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="SUFFIX" value="&quot;tmp&quot;" xmi:id="_IQwFFpakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_IQwFF5akEeuVZa89U7ctLg"/>
+  </node>
+  <node componentName="tFileCompare" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="864" posY="1568" xmi:id="_IQwFGJakEeuVZa89U7ctLg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileCompare_1" xmi:id="_IQwFGZakEeuVZa89U7ctLg"/>
+    <elementParameter field="CLOSED_LIST" name="COMPARISON_MODE" value="TEXT_CMP" xmi:id="_IQwFGpakEeuVZa89U7ctLg"/>
+    <elementParameter field="FILE" name="FILE" value="((String)globalMap.get(&quot;tCreateTemporaryFile_1_FILEPATH&quot;))" xmi:id="_IQwFG5akEeuVZa89U7ctLg"/>
+    <elementParameter field="FILE" name="FILE_REF" value="context.reference_file1" xmi:id="_IQwFHJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="DIFFER_MESSAGE" value="&quot;[job &quot; + jobName + &quot;] Files differ&quot;" xmi:id="_IQwFHZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="NO_DIFFER_MESSAGE" value="&quot;[job &quot; + jobName + &quot;] Files are identical&quot;" xmi:id="_IQwFHpakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="PRINT" value="true" xmi:id="_IQwFH5akEeuVZa89U7ctLg"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;ISO-8859-15&quot;" xmi:id="_IQwFIJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" xmi:id="_IQwFIZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_IQwFIpakEeuVZa89U7ctLg"/>
+    <metadata connector="FLOW" name="tFileCompare_1" xmi:id="_IQwFI5akEeuVZa89U7ctLg">
+      <column defaultValue="" key="false" length="255" name="file" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true" xmi:id="_IQwFJJakEeuVZa89U7ctLg"/>
+      <column defaultValue="" key="false" length="255" name="file_ref" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true" xmi:id="_IQwFJZakEeuVZa89U7ctLg"/>
+      <column defaultValue="" key="false" length="0" name="moment" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true" xmi:id="_IQwFJpakEeuVZa89U7ctLg"/>
+      <column defaultValue="" key="false" length="50" name="job" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true" xmi:id="_IQwFJ5akEeuVZa89U7ctLg"/>
+      <column defaultValue="" key="false" length="255" name="component" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true" xmi:id="_IQwFKJakEeuVZa89U7ctLg"/>
+      <column defaultValue="" key="false" length="1" name="differ" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true" xmi:id="_IQwFKZakEeuVZa89U7ctLg"/>
+      <column defaultValue="" key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true" xmi:id="_IQwFKpakEeuVZa89U7ctLg"/>
+    </metadata>
+  </node>
+  <node componentName="tAssert" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1184" posY="1568" xmi:id="_IQwFK5akEeuVZa89U7ctLg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAssert_1" xmi:id="_IQwFLJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="DESCRIPTION" value="&quot;File from reference differs from input&quot;" xmi:id="_IQwFLZakEeuVZa89U7ctLg"/>
+    <elementParameter field="MEMO_JAVA" name="EXPRESSION" value="((Boolean)globalMap.get(&quot;tFileCompare_1_DIFFERENCE&quot;))" xmi:id="_IQwFLpakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_IQwFL5akEeuVZa89U7ctLg"/>
+    <metadata connector="FLOW" name="tAssert_1" xmi:id="_IQwFMJakEeuVZa89U7ctLg"/>
+  </node>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="INPUT_1" xmi:id="_IQwFMZakEeuVZa89U7ctLg">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false" xmi:id="_IQwFMpakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1" xmi:id="_IQwFM5akEeuVZa89U7ctLg"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileInputDelimited_1" target="tFileCompare_1" xmi:id="_IQwFNJakEeuVZa89U7ctLg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2" xmi:id="_IQwFNZakEeuVZa89U7ctLg"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="INPUT_1" offsetLabelX="0" offsetLabelY="0" source="INPUT_1" target="tMap_2" xmi:id="_IQwFNpakEeuVZa89U7ctLg">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false" xmi:id="_IQwFN5akEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3" xmi:id="_IQwFOJakEeuVZa89U7ctLg"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="0" metaname="OUTPUT_1" offsetLabelX="0" offsetLabelY="0" source="OUTPUT_1" target="tFileOutputDelimited_1" xmi:id="_IQwFOZakEeuVZa89U7ctLg">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false" xmi:id="_IQwFOpakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2" xmi:id="_IQwFO5akEeuVZa89U7ctLg"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tCreateTemporaryFile_1" offsetLabelX="0" offsetLabelY="0" source="tCreateTemporaryFile_1" target="tFileInputDelimited_1" xmi:id="_IQwFPJakEeuVZa89U7ctLg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1" xmi:id="_IQwFPZakEeuVZa89U7ctLg"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileCompare_1" offsetLabelX="0" offsetLabelY="0" source="tFileCompare_1" target="tAssert_1" xmi:id="_IQwFPpakEeuVZa89U7ctLg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk3" xmi:id="_IQwFP5akEeuVZa89U7ctLg"/>
+  </connection>
+  <connection connectorName="FLOW" label="Acra_load_entities_C" lineStyle="0" metaname="Acra_load_entities_C" offsetLabelX="0" offsetLabelY="0" source="tMap_2" target="OUTPUT_1" xmi:id="_IQwFQJakEeuVZa89U7ctLg">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false" xmi:id="_IQwFQZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Acra_load_entities_C" xmi:id="_IQwFQpakEeuVZa89U7ctLg"/>
+  </connection>
+  <note opaque="true" posX="480" posY="0" sizeHeight="64" sizeWidth="360" text="This Test Case has been created automatically" xmi:id="_IQwFQ5akEeuVZa89U7ctLg"/>
+  <subjob xmi:id="_IQwFRJakEeuVZa89U7ctLg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1" xmi:id="_IQwFRZakEeuVZa89U7ctLg"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_IQwFRpakEeuVZa89U7ctLg"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_IQwFR5akEeuVZa89U7ctLg"/>
+  </subjob>
+  <subjob xmi:id="_IQwFSJakEeuVZa89U7ctLg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tCreateTemporaryFile_1" xmi:id="_IQwFSZakEeuVZa89U7ctLg"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_IQwFSpakEeuVZa89U7ctLg"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_IQwFS5akEeuVZa89U7ctLg"/>
+  </subjob>
+  <subjob xmi:id="_IQwFTJakEeuVZa89U7ctLg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileCompare_1" xmi:id="_IQwFTZakEeuVZa89U7ctLg"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_IQwFTpakEeuVZa89U7ctLg"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_IQwFT5akEeuVZa89U7ctLg"/>
+  </subjob>
+  <subjob xmi:id="_IQwFUJakEeuVZa89U7ctLg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tAssert_1" xmi:id="_IQwFUZakEeuVZa89U7ctLg"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150" xmi:id="_IQwFUpakEeuVZa89U7ctLg"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236" xmi:id="_IQwFU5akEeuVZa89U7ctLg"/>
+  </subjob>
+  <testContainerNodes componentName="INPUT" componentVersion="0.1" input="true" offsetLabelX="0" offsetLabelY="0" posX="960" posY="1312" xmi:id="_IQwFVJakEeuVZa89U7ctLg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="INPUT_1" xmi:id="_IQwFVZakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true" xmi:id="_IQwFVpakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="START" show="false" value="false" xmi:id="_IQwFV5akEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__" xmi:id="_IQwFWJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__" xmi:id="_IQwFWZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_IQwFWpakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false" xmi:id="_IQwFW5akEeuVZa89U7ctLg"/>
+    <elementParameter field="MEMO" name="COMMENT" value="" xmi:id="_IQwFXJakEeuVZa89U7ctLg"/>
+    <metadata connector="FLOW" label="metadata" name="INPUT_1" xmi:id="_IQwFXZakEeuVZa89U7ctLg">
+      <column comment="" key="false" length="255" name="business_constitution_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFXpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="primary_ssic_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFX5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="primary_user_described_activity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFYJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="street_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFYZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="entity_status_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFYpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="annual_return_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFY5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="postal_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFZJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital10_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFZZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="entity_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFZpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital2_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFZ5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFaJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="address_type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFaZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital9_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFapakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital8_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFa5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital6_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFbJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital6_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFbZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="level_no" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFbpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital9_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFb5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name9" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFcJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital7_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFcZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital6_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFcpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital4_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFc5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="secondary_ssic_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFdJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital7_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFdZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital1_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFdpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital2_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFd5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFeJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_issue_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFeZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="10" name="no_of_officers" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true" xmi:id="_IQwFepakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFe5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="building_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFfJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="10" name="no_of_charges" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true" xmi:id="_IQwFfZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital8_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFfpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital2_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFf5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital3_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFgJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital4_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFgZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="secondary_ssic_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFgpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital10_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFg5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital8_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFhJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital1_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFhZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital3_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFhpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="block" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFh5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="other_address_line2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFiJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="other_address_line1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFiZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="account_due_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFipakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital7_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFi5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name8" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFjJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital5_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFjZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFjpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital3_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFj5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFkJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name6" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFkZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name7" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFkpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name4" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFk5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name5" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFlJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital4_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFlZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="secondary_user_described_activity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFlpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="issuance_agency_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFl5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name14" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFmJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name15" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFmZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name10" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFmpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="registration_incorporation_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFm5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name12" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFnJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name13" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFnZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital2_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFnpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital1_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFn5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital8_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFoJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="primary_ssic_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true" xmi:id="_IQwFoZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm5" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFopakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm4" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFo5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFpJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paf_constitution_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFpZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFppakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital9_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFp5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital4_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFqJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name11" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFqZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="unit_no" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFqpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital5_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFq5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital6_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFrJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital5_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFrZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="company_type_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFrpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFr5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFsJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFsZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital10_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFspakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital10_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFs5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm4" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFtJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital7_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFtZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm5" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFtpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="entity_type_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFt5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital3_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFuJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital5_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFuZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital9_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFupakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital1_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFu5akEeuVZa89U7ctLg"/>
+    </metadata>
+  </testContainerNodes>
+  <testContainerNodes componentName="OUTPUT" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="1472" posY="1312" xmi:id="_IQwFvJakEeuVZa89U7ctLg">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="OUTPUT_1" xmi:id="_IQwFvZakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="false" xmi:id="_IQwFvpakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="START" show="false" value="false" xmi:id="_IQwFv5akEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__" xmi:id="_IQwFwJakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__" xmi:id="_IQwFwZakEeuVZa89U7ctLg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row" xmi:id="_IQwFwpakEeuVZa89U7ctLg"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false" xmi:id="_IQwFw5akEeuVZa89U7ctLg"/>
+    <elementParameter field="MEMO" name="COMMENT" value="" xmi:id="_IQwFxJakEeuVZa89U7ctLg"/>
+    <metadata connector="FLOW" label="DIrect_Map" name="OUTPUT_1" xmi:id="_IQwFxZakEeuVZa89U7ctLg">
+      <column comment="" key="false" length="255" name="business_constitution_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFxpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="primary_ssic_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFx5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="primary_user_described_activity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFyJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="street_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFyZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="entity_status_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFypakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="annual_return_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFy5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="postal_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFzJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital10_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFzZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="entity_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFzpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital2_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwFz5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF0JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="address_type" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF0ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital9_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF0pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital8_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF05akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital6_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF1JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital6_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF1ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="level_no" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF1pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital9_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF15akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name9" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF2JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital7_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF2ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital6_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF2pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital4_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF25akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="secondary_ssic_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF3JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital7_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF3ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital1_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF3pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital2_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF35akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF4JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_issue_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF4ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="10" name="no_of_officers" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true" xmi:id="_IQwF4pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF45akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="building_name" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF5JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="10" name="no_of_charges" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true" xmi:id="_IQwF5ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital8_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF5pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital2_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF55akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital3_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF6JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital4_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF6ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="secondary_ssic_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF6pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital10_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF65akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital8_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF7JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital1_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF7ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital3_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF7pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="block" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF75akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="other_address_line2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF8JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="other_address_line1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF8ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="account_due_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF8pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital7_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF85akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name8" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF9JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital5_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF9ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF9pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital3_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF95akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF-JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name6" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF-ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name7" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF-pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name4" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF-5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name5" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF_JakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital4_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF_ZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="secondary_user_described_activity" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF_pakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="issuance_agency_id" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwF_5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name14" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGAJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name15" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGAZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name10" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGApakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="registration_incorporation_date" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGA5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name12" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGBJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name13" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGBZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital2_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGBpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital1_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGB5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital8_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGCJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="primary_ssic_code" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Integer" usefulColumn="true" xmi:id="_IQwGCZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm5" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGCpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm4" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGC5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGDJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paf_constitution_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGDZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="name_of_audit_firm2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGDpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital9_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGD5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital4_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGEJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="former_entity_name11" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGEZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="unit_no" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGEpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital5_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGE5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital6_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGFJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital5_currency" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGFZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="company_type_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGFpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm3" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGF5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm2" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGGJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm1" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGGZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital10_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGGpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital10_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGG5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm4" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGHJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital7_others" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGHZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="uen_of_audit_firm5" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGHpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="entity_type_description" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGH5akEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital3_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGIJakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital5_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGIZakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital9_preference" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGIpakEeuVZa89U7ctLg"/>
+      <column comment="" key="false" length="255" name="paid_up_capital1_ordinary" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_String" usefulColumn="true" xmi:id="_IQwGI5akEeuVZa89U7ctLg"/>
+    </metadata>
+  </testContainerNodes>
+  <OriginalNodes posX="1120" posY="1312" start="true" uniqueName="tMap_2" xmi:id="_IQwGJJakEeuVZa89U7ctLg"/>
+  <testInstanceList contextInstance="Default" displayName="Default" forbidDelete="true" name="Default" testContainerID="_LgewkJYuEeubh-83y8OEeA" xmi:id="_IQwGJZakEeuVZa89U7ctLg">
+    <testDatas name="input_file1" paramemterName="input_file1" value="Job_Acra_Information_Entities_C_Unit_test_Default_input_file1_acra-information-on-corporate-entities-c_Sample.csv" xmi:id="_IQwGJpakEeuVZa89U7ctLg"/>
+    <testDatas name="reference_file1" paramemterName="reference_file1" value="Job_Acra_Information_Entities_C_Unit_test_Default_reference_file1_acra-information-on-corporate-entities-c_ref.csv" xmi:id="_IQwGJ5akEeuVZa89U7ctLg"/>
+  </testInstanceList>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_cd4e0cfe-173c-4486-a918-a7519f78f654"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>DTyH72anc9DpRG4LWIjeVladY1P01bCh3ROcoxmmwhtYlSIhxCFC7kjJKwy8exkHrRh6ZWRgnQv7
+gCTeLZapKg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b14890cd-113e-4400-8550-fa606109027d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>RdL1VIX9n6wmOy/iLUpT66NlUQRYxjGa34rQbTZaDN9wRbgiapQVxn+I8ptCcFkhbI7DxhINNVxn
+kYLEIpSrGw==</DigestValue></Reference></SignedInfo><SignatureValue>Qem6KAS3HcK8XP/jwmU+kaRu6KXCn0J6Xpcrpl8BCGvQ0cfXumC6ninvtBLumWa+UQkFKmxMTL37
+G9F0kgyjiefRnOvDnvdYe2icD8wPVmTyySYPYkWx5CoH2VIToG5seov77QUss0obMJU49/JSQMwL
+vzSem3lqe/8aiCOB5+nGnlevIOSCJEem0EmeloMI0GOJSkTsJNP1qrc2u4DujgrgTT1UReoS+gSW
+Af3JsuO2Ro1u44AAC0iIDdVK5PI67kovoBmgtWnlTsRVjAFNMaE1fP/Hq53eKMfMk/yYsMYzMkO0
+Jr5gpAMpbsBBfGnOuQ/kC4CdeZAk7p1+LWpBAQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b14890cd-113e-4400-8550-fa606109027d" Target="#_cd4e0cfe-173c-4486-a918-a7519f78f654"><Timestamp>2021-04-06 06:18:43</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></testcontainer:TestContainer>
